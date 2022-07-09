@@ -4,6 +4,7 @@ import video2 from '../img/video-sneaker-01.mp4'
 import video4 from '../img/video-sneaker-03.mp4'
 import video5 from '../img/video-sneaker-04.mp4'
 import video6 from '../img/video-sneaker-05.mp4'
+import video7 from '../img/video-sneaker-07.mp4'
 import { Row } from 'reactstrap'
 import "../scss/Product.scss"
 import { DataContext } from '../components/DataProvider'
@@ -97,7 +98,7 @@ export default function Home() {
                 </div>
 
                 <div id="product_01">
-                    <Carousel breakPoints={breakPoints}>
+                    <Carousel breakPoints={breakPoints} >
                         {
                             products_04.map(product => (
                                 <div className="card" key={product._id}>
@@ -110,9 +111,9 @@ export default function Home() {
                                         </h3>
                                         <p>{product.description}</p>
                                         <h4>${product.price}</h4>
-                                        <button onClick={() => addCart_04(product._id)}>
+                                        {/* <button onClick={() => addCart_04(product._id)}>
                                             Add to cart
-                                        </button>
+                                        </button> */}
                                     </div>
                                 </div>
                             ))
@@ -133,9 +134,9 @@ export default function Home() {
                                         </h3>
                                         <p>{product.description}</p>
                                         <h4>${product.price}</h4>
-                                        <button onClick={() => addCart(product._id)}>
+                                        {/* <button onClick={() => addCart(product._id)}>
                                             Add to cart
-                                        </button>
+                                        </button> */}
                                     </div>
                                 </div>
                             ))
@@ -156,9 +157,9 @@ export default function Home() {
                                         </h3>
                                         <p>{product.description}</p>
                                         <h4>${product.price}</h4>
-                                        <button onClick={() => addCart_03(product._id)}>
+                                        {/* <button onClick={() => addCart_03(product._id)}>
                                             Add to cart
-                                        </button>
+                                        </button> */}
                                     </div>
                                 </div>
                             ))
@@ -170,6 +171,71 @@ export default function Home() {
             {/* end col 3 */}
 
 
+
+
+
+
+            {/* What hot */}
+
+            <div id="whathot">
+                <div className="wth_text">
+                    <h1>WHAT'S HOT</h1>
+                    <p>Hot stuff, don't miss it !</p>
+                </div>
+                <div className="wth_container">
+                    <div className="wth_row">
+                        <div className="col_wth_6">
+                            <Link to={`/vi/adidaskarlie`}>
+                                <div className="img_wth_6">
+                                    <img src={img7} alt="" />
+                                </div>
+                            </Link>
+                            <div className="title_col">
+                                <h3>4DFWD X PARLEY. TAKE ACTION FOR OUR OCEANS.</h3>
+                                <p>Đừng chỉ nói suôn. Hãy thực hiện.</p>
+
+                            </div>
+                            <p className="btn_buy"><Link to={`#`}>BUY NOW</Link></p>
+                        </div>
+                        <div className="col_wth_6">
+                            <Link to={`/vi/adistar`}>
+                                <div className="img_wth_6">
+                                    <img src={img8} alt="" />
+                                </div>
+                            </Link>
+                            <div className="title_col">
+                                <h3>ADISTAR CS</h3>
+                                <p>Chuẩn bị, sẵn sàng, xuất phát. Chậm mà chắc.</p>
+
+                            </div>
+                            <p className="btn_buy"><Link to={`#`}>BUY NOW</Link></p>
+                        </div>
+                        <div className="col_wth_6">
+                            <div className="img_wth_6">
+                                <img src={img9} alt="" />
+                            </div>
+                            <div className="title_col">
+                                <h3>MY RETROPY</h3>
+                                <p>I am free to choose who I am.​</p>
+                            </div>
+                            <p className="btn_buy"><Link to={`#`}>SHOP NOW</Link></p>
+                        </div>
+                        <div className="col_wth_6">
+                            <div className="img_wth_6">
+                                <Link to={`/vi/originals`}>
+                                    <img src={img10} alt="" />
+                                </Link>
+
+                            </div>
+                            <div className="title_col">
+                                <h3>adidas Originals by Parley</h3>
+                                <p>Always iconic, now redesigned with Parley Ocean Plastic.​</p>
+                            </div>
+                            <p className="btn_buy"><Link to={`/vi/originals`}>SHOP NOW</Link></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             {/* product1 */}
 
@@ -191,99 +257,9 @@ export default function Home() {
                                         </h3>
                                         <p>{product.description}</p>
                                         <h4>${product.price}</h4>
-                                        <button onClick={() => addCart(product._id)}>
+                                        {/* <button onClick={() => addCart(product._id)}>
                                             Add to cart
-                                        </button>
-                                    </div>
-                                </div>
-                            ))
-                        }
-                    </Carousel>
-                </div>
-            </div>
-
-
-            {/* What hot */}
-
-            <div id="whathot">
-                <div className="wth_text">
-                    <h1>WHAT'S HOT</h1>
-                    <p>Hot stuff, don't miss it !</p>
-                </div>
-                <div className="wth_container">
-                    <div className="wth_row">
-                        <div className="col_wth_6">
-                            <div className="img_wth_6">
-                                <img src={img7} alt="" />
-                            </div>
-                            <div className="title_col">
-                                <h3>4DFWD X PARLEY. TAKE ACTION FOR OUR OCEANS.</h3>
-                                <p>Đừng chỉ nói suôn. Hãy thực hiện.</p>
-
-                            </div>
-                            <p className="btn_buy"><Link to={`#`}>BUY NOW</Link></p>
-                        </div>
-                        <div className="col_wth_6">
-                            <div className="img_wth_6">
-                                <img src={img8} alt="" />
-                            </div>
-                            <div className="title_col">
-                                <h3>ADISTAR CS</h3>
-                                <p>Chuẩn bị, sẵn sàng, xuất phát. Chậm mà chắc.</p>
-
-                            </div>
-                            <p className="btn_buy"><Link to={`#`}>BUY NOW</Link></p>
-                        </div>
-                        <div className="col_wth_6">
-                            <div className="img_wth_6">
-                                <img src={img9} alt="" />
-                            </div>
-                            <div className="title_col">
-                                <h3>MY RETROPY</h3>
-                                <p>I am free to choose who I am.​</p>
-                            </div>
-                            <p className="btn_buy"><Link to={`#`}>SHOP NOW</Link></p>
-                        </div>
-                        <div className="col_wth_6">
-                            <div className="img_wth_6">
-                                <img src={img10} alt="" />
-                            </div>
-                            <div className="title_col">
-                                <h3>adidas Originals by Parley</h3>
-                                <p>Always iconic, now redesigned with Parley Ocean Plastic.​</p>
-                            </div>
-                            <p className="btn_buy"><Link to={`#`}>SHOP NOW</Link></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            {/*  NEW ARRIVALS */}
-
-            <div id="col-2">
-                <div className="col-title-product">
-                    <h1>
-                        NEW ARRIVALS
-                    </h1>
-                </div>
-                <div id="product">
-                    <Carousel breakPoints={breakPoints}>
-                        {
-                            products_03.map(product => (
-                                <div className="card" key={product._id}>
-                                    <Link to={`/products/${product._id}`}>
-                                        <img src={product.images[0]} alt="" />
-                                    </Link>
-                                    <div className="box">
-                                        <h3 title={product.title}>
-                                            <Link to={`/products/${product._id}`}>{product.title}</Link>
-                                        </h3>
-                                        <p>{product.description}</p>
-                                        <h4>${product.price}</h4>
-                                        <button onClick={() => addCart(product._id)}>
-                                            Add to cart
-                                        </button>
+                                        </button> */}
                                     </div>
                                 </div>
                             ))
@@ -307,7 +283,8 @@ export default function Home() {
                                     src={video4}
                                     autoPlay={"autoplay"}
                                     preLoad="auto"
-                                    loop
+                                    muted
+                                    loops
                                 > something</video>
                             </div>
                             <div className="title_col">
@@ -364,6 +341,41 @@ export default function Home() {
 
 
 
+            {/*  NEW ARRIVALS */}
+
+            <div id="col-2">
+                <div className="col-title-product">
+                    <h1>
+                        NEW ARRIVALS
+                    </h1>
+                </div>
+                <div id="product">
+                    <Carousel breakPoints={breakPoints}>
+                        {
+                            products_03.map(product => (
+                                <div className="card" key={product._id}>
+                                    <Link to={`/products/${product._id}`}>
+                                        <img src={product.images[0]} alt="" />
+                                    </Link>
+                                    <div className="box">
+                                        <h3 title={product.title}>
+                                            <Link to={`/products/${product._id}`}>{product.title}</Link>
+                                        </h3>
+                                        <p>{product.description}</p>
+                                        <h4>${product.price}</h4>
+                                        {/* <button onClick={() => addCart(product._id)}>
+                                            Add to cart
+                                        </button> */}
+                                    </div>
+                                </div>
+                            ))
+                        }
+                    </Carousel>
+                </div>
+            </div>
+
+
+
             {/* A NEW GENERATION  */}
 
             <div id="col-3">
@@ -391,7 +403,12 @@ export default function Home() {
                 <div className="card-3 card-length-3">
                     {/* <Link> */}
                     <div className="row-card-3-right row-img">
-
+                        <video
+                            src={video7}
+                            autoPlay={"autoplay"}
+                            preLoad="auto"
+                            loop
+                        > something</video>
                     </div>
 
                     <div className="row-text">

@@ -88,7 +88,12 @@ export default function Cart() {
                 }
 
                 <div className="total">
-                    <Link to="/payment">Payment</Link>
+                    {
+                        cart.map(product => (
+                            <Link to={`/payment/${product._id}`} >Payment</Link>
+                        ))
+                    }
+
                     <h3>Total: $ {total}</h3>
                 </div>
             </div>

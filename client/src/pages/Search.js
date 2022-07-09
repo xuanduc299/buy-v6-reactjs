@@ -13,6 +13,7 @@ const Search = () => {
         if (data?.products) setProducts(data.products)
     }, [data?.products])
 
+
     return (
         <>
             <Products products={products} />

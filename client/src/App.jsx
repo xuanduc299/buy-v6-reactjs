@@ -2,7 +2,11 @@ import "./app.scss";
 import Home from "./pages/Home";
 // import Post from "./pages/Post";
 import Login from "./pages/Login";
+import Originals from "./pages/Originals";
+import Adistar from "./pages/Adistar";
+import AdidasKarlie from "./pages/AdidasKarlie";
 import Header from "./components/Header";
+import Payment from "./components/Payment";
 import Products from "./components/Products";
 import Vi from "./components/Vi";
 import Vi_Shirt from "./components/Vi_Shirt";
@@ -55,13 +59,17 @@ const App = () => {
             {/* <DetailUser user={user} path="/my-account" /> */}
             <Route path="/" element={<Home />} />
             <Route path="/products/" element={<Products />} />
+            <Route path="/vi/originals" element={<Originals />} />
+            <Route path="/vi/adistar" element={<Adistar />} />
+            <Route path="/vi/adidaskarlie" element={<AdidasKarlie />} />
             <Route path="/vi/search/giay" element={<Vi />} />
             <Route path="/vi/search/ao" element={<Vi_Shirt />} />
             <Route path="/products/:id" element={<Details />} />
+            <Route path="/payment/:id" element={<Payment />} />
+            <Route path="/search/:value" element={<Search />} />
             <Route path="/cart" element={<Cart />} />
-            <Route path='/search/:value' element={<Search />} />
             {/* <Route path='/filter/:option/:value' element={<Filter />} /> */}
-            {/* <Route path="/payment" element={<Payment />} /> */}
+
             <Route
               path="/login"
               element={user ? <Navigate to="/" /> : <Login />}

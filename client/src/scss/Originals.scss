@@ -1,0 +1,117 @@
+#dt-back-or {
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: 20px;
+    width: 250px;
+
+    p {
+        width: 80px;
+        float: left;
+        text-decoration-line: underline;
+    }
+
+    p:hover {
+        background-color: #333;
+        color: #fff;
+    }
+
+
+
+    .search_product {
+        font-style: oblique;
+    }
+}
+
+#dt-back-ad {
+
+    padding: 100px;
+    font-size: 20px;
+    width: 250px;
+
+    p {
+        width: 80px;
+        float: left;
+        text-decoration-line: underline;
+    }
+
+    p:hover {
+        background-color: #333;
+        color: #fff;
+    }
+
+
+
+    .search_product {
+        font-style: oblique;
+    }
+}
+
+//products_06
+
+#products_06 {
+    width: 100%;
+    display: inline-flex;
+    // justify-content: space-around;
+    flex-wrap: wrap;
+
+    .bd_products {
+        margin-left: 10%;
+    }
+
+    .card {
+        max-width: 370px;
+        width: 100%;
+        overflow: hidden;
+        height: 500px;
+        box-shadow: 0 0 5px #ccc;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    .card img {
+        width: 100%;
+        height: 100%;
+        max-height: 340px;
+        display: block;
+        object-fit: cover;
+    }
+
+    .card .box {
+        margin: 6px;
+    }
+
+    .card .box h3 {
+        text-transform: uppercase;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .card .box p {
+        margin: 10px 0;
+        line-height: 1.5;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        height: 30px;
+    }
+
+    .card .box h4 {
+        color: crimson;
+    }
+
+    .card .box button {
+        width: 100%;
+        border: none;
+        outline: none;
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        margin: 10px 0;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+}

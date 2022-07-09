@@ -70,6 +70,10 @@ header {
         cursor: pointer;
     }
 
+    .listItem:hover {
+        color: lightseagreen;
+    }
+
     nav ul li a {
         text-decoration: none;
         text-transform: uppercase;
@@ -208,4 +212,10 @@ header {
     font-weight: 600;
     font-size: medium;
     color: white;
+}
+
+.search-icon {
+    margin: 13px;
+    font-weight: bold;
+    font-size: 18px;
 }

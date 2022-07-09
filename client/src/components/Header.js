@@ -31,7 +31,7 @@ const Header = ({ user }) => {
 
     const [show, setShow] = useState(true)
     const controlNavbar = () => {
-        if (window.scrollY > 100) {
+        if (window.scrollY > 200) {
             setShow(false)
         } else {
             setShow(true)
@@ -44,8 +44,6 @@ const Header = ({ user }) => {
             window.removeEventListener('scroll', controlNavbar)
         }
     }, [])
-
-    console.log(show)
 
     return (
         <header show>
@@ -94,6 +92,12 @@ const Header = ({ user }) => {
                             <li className="listItem" onClick={logout}>
                                 LOGOUT
                             </li>
+                            <li className="listItem" onClick={() => setOpenSearch(true)}>
+                                SEARCH
+                            </li>
+                            <li className="listItem" onClick={() => setOpenFilter(true)}>
+                                FILTER
+                            </li>
                         </ul>
                         <div className="cart-icon" >
                             <span>{cart.length}</span>
@@ -101,8 +105,8 @@ const Header = ({ user }) => {
                                 <img src={Cart} alt="" width="20" style={styleMenu} />
                             </Link>
                         </div>
-                        <p onClick={() => setOpenSearch(true)}>Search</p>
-                        <p onClick={() => setOpenFilter(true)}>Filter</p>
+                        {/* <div className="search-icon" onClick={() => setOpenSearch(true)}>Search</div>
+                        <div className="search-icon" onClick={() => setOpenFilter(true)}>Filter</div> */}
 
                         {/* -------- Search --------- */}
                         {

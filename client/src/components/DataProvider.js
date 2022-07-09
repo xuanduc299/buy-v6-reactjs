@@ -58,14 +58,14 @@ export const DataProvider = (props) => {
     const [products, setProducts] = useState([
         {
             "_id": "1",
-            "title": "Wacth Product 01",
+            "title": "NIKE WIHTE",
             "images": [
                 img1,
                 img2,
                 img3,
                 img4
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "GIày sneaker nam nữ",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -74,14 +74,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "2",
-            "title": "Wacth Product 02",
+            "title": " Giày ROSS",
             "images": [
                 img5,
                 img6,
                 img7,
                 img8
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "kiểu dáng hàn quốc",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -91,14 +91,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "3",
-            "title": "Wacth Product 03",
+            "title": "GIÀY GALAXY 5",
             "images": [
                 img9,
                 img10,
                 img1,
                 img2
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "GIÀY CHẠY BỘ",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -108,14 +108,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "4",
-            "title": "Wacth Product 04",
+            "title": "VANS OLD SCHOOL",
             "images": [
                 img3,
                 img4,
                 img5,
                 img6
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Giày Sneaker",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -125,14 +125,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "5",
-            "title": "Wacth Product 05",
+            "title": "ADIDAS NMD HU PHARRELL 'CHOCOLATE' - GY0090",
             "images": [
                 img7,
                 img8,
                 img9,
                 img10
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Giày NMD",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -217,14 +217,14 @@ export const DataProvider = (props) => {
     const [products_02, setProducts_02] = useState([
         {
             "_id": "100",
-            "title": "Wacth Product 01",
+            "title": "nike 100",
             "images": [
                 img11,
                 img12,
                 img13,
                 img14
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "giay 100",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -233,14 +233,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "101",
-            "title": "Wacth Product 02",
+            "title": "nike 101",
             "images": [
                 img12,
                 img13,
                 img14,
                 img15
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "giay 101",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -250,14 +250,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "102",
-            "title": "Wacth Product 03",
+            "title": "nike 102",
             "images": [
                 img13,
                 img14,
                 img15,
                 img16
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "giay 102",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -268,14 +268,14 @@ export const DataProvider = (props) => {
         ,
         {
             "_id": "103",
-            "title": "Wacth Product 03",
+            "title": "nike 103",
             "images": [
                 img14,
                 img15,
                 img16,
                 img17
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "giay 103",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -286,14 +286,14 @@ export const DataProvider = (props) => {
         ,
         {
             "_id": "104",
-            "title": "Wacth Product 03",
+            "title": "nike 104",
             "images": [
                 img15,
                 img16,
                 img17,
                 img18
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "giay 104",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -303,14 +303,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "105",
-            "title": "Wacth Product 03",
+            "title": "nike 105",
             "images": [
                 img16,
                 img17,
                 img18,
                 img19
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "giay 105",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -327,24 +327,7 @@ export const DataProvider = (props) => {
                 img19,
                 img20
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
-            "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
-            "colors": ["red", "black", "teal"],
-            "sizes": ["XL", "L", "M", "XM", "LX"],
-            "price": 103,
-            "count": 1
-
-        },
-        {
-            "_id": "106",
-            "title": "Wacth Product 03",
-            "images": [
-                img18,
-                img19,
-                img20,
-                img21
-            ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "giay 106",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -356,12 +339,12 @@ export const DataProvider = (props) => {
             "_id": "107",
             "title": "Wacth Product 03",
             "images": [
+                img18,
                 img19,
                 img20,
-                img21,
-                img22
+                img21
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "giay 107",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -373,12 +356,12 @@ export const DataProvider = (props) => {
             "_id": "108",
             "title": "Wacth Product 03",
             "images": [
+                img19,
                 img20,
                 img21,
-                img22,
-                img11
+                img22
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "giay 108",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -388,6 +371,23 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "109",
+            "title": "Wacth Product 03",
+            "images": [
+                img20,
+                img21,
+                img22,
+                img11
+            ],
+            "description": "giay 109",
+            "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
+            "colors": ["red", "black", "teal"],
+            "sizes": ["XL", "L", "M", "XM", "LX"],
+            "price": 103,
+            "count": 1
+
+        },
+        {
+            "_id": "110",
             "title": "Wacth Product 03",
             "images": [
                 img21,
@@ -395,7 +395,7 @@ export const DataProvider = (props) => {
                 img11,
                 img12
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "giay 110",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -404,7 +404,7 @@ export const DataProvider = (props) => {
 
         },
         {
-            "_id": "109",
+            "_id": "111",
             "title": "Wacth Product 03",
             "images": [
                 img22,
@@ -412,7 +412,7 @@ export const DataProvider = (props) => {
                 img12,
                 img13
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "giay 111",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -428,14 +428,14 @@ export const DataProvider = (props) => {
     const [products_03, setProducts_03] = useState([
         {
             "_id": "21",
-            "title": "Wacth Product 01",
+            "title": "GIÀY RUNFALCON 2.0 MESSI",
             "images": [
                 img23,
                 img24,
                 img25,
                 img26
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Sportswear",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -444,14 +444,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "22",
-            "title": "Wacth Product 02",
+            "title": "GIÀY ĐÁ BÓNG X SPEEDFLOW.3 FIRM GROUND",
             "images": [
                 img24,
                 img25,
                 img26,
                 img23
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "GIÀY ĐÁ BÓNG",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -461,14 +461,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "23",
-            "title": "Wacth Product 03",
+            "title": "GIÀY ĐÁ BÓNG SÂN CỎ NHÂN TẠO QUAI DÁN X SPEEDFLOW.4",
             "images": [
                 img25,
                 img26,
                 img23,
                 img24
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "GIÀY ĐÁ BÓNG",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -478,14 +478,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "24",
-            "title": "Wacth Product 03",
+            "title": "GIÀY ĐÁ BÓNG SÂN CỎ NHÂN TẠO X SPEEDFLOW.3",
             "images": [
                 img26,
                 img23,
                 img24,
                 img25
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "GIÀY ĐÁ BÓNG",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -497,14 +497,14 @@ export const DataProvider = (props) => {
     const [products_04, setProducts_04] = useState([
         {
             "_id": "31",
-            "title": "Wacth Product 01",
+            "title": "Giày Adistar CS",
             "images": [
                 img27,
                 img28,
                 img29,
                 img30
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Girls Run",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -513,14 +513,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "32",
-            "title": "Wacth Product 02",
+            "title": "Giày Ozelle Lifestyle Running Cloudfoam",
             "images": [
                 img28,
                 img29,
                 img30,
                 img27
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Nữ Sportswear",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -530,14 +530,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "33",
-            "title": "Wacth Product 03",
+            "title": "GALAXY 6 W",
             "images": [
                 img29,
                 img30,
                 img27,
                 img28
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Girls Run",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -547,14 +547,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "34",
-            "title": "Wacth Product 03",
+            "title": "GALAXY 6 W",
             "images": [
                 img30,
                 img27,
                 img28,
                 img29
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Girls Run",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -567,14 +567,14 @@ export const DataProvider = (props) => {
     const [products_05, setProducts_05] = useState([
         {
             "_id": "41",
-            "title": "Wacth Product 02",
+            "title": "HEROBIKER ",
             "images": [
                 img31,
                 img32,
                 img33,
                 img34
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Ao du nhiet",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -584,14 +584,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "42",
-            "title": "Wacth Product 03",
+            "title": "Ao BaLo",
             "images": [
                 img32,
                 img31,
                 img33,
                 img34
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Nam",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -601,14 +601,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "43",
-            "title": "Wacth Product 03",
+            "title": "HEROBIKER",
             "images": [
                 img33,
                 img32,
                 img31,
                 img34
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Ao du Nhiet tay ngan",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -617,14 +617,14 @@ export const DataProvider = (props) => {
 
         }, {
             "_id": "45",
-            "title": "Wacth Product 01",
+            "title": "Ao the thao",
             "images": [
                 img34,
                 img32,
                 img31,
                 img33
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Ao the thao nam ",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -633,14 +633,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "46",
-            "title": "Wacth Product 02",
+            "title": "Ao the thao",
             "images": [
                 img35,
                 img36,
                 img37,
                 img38
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Ao the thao nam",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -650,14 +650,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "47",
-            "title": "Wacth Product 03",
+            "title": "Ao the thao",
             "images": [
                 img36,
                 img35,
                 img37,
                 img38
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Ao the thao nam ",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -667,14 +667,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "48",
-            "title": "Wacth Product 03",
+            "title": "HEROBIKER",
             "images": [
                 img37,
                 img35,
                 img36,
                 img38
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Ao du nhiet tay ngan black",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -683,14 +683,14 @@ export const DataProvider = (props) => {
 
         }, {
             "_id": "49",
-            "title": "Wacth Product 01",
+            "title": "Arsenal",
             "images": [
                 img38,
                 img35,
                 img36,
                 img37
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Ao the thao",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -699,14 +699,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "50",
-            "title": "Wacth Product 02",
+            "title": "Arsenal",
             "images": [
                 img39,
                 img40,
                 img41,
                 img42
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Ao the thao",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -716,14 +716,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "51",
-            "title": "Wacth Product 03",
+            "title": "Ao the thao Red",
             "images": [
                 img40,
                 img39,
                 img41,
                 img42
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Ao the thao.",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -733,14 +733,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "52",
-            "title": "Wacth Product 03",
+            "title": "Ao ba lo",
             "images": [
                 img41,
                 img39,
                 img40,
                 img42
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Ao ba lo nam ",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -749,14 +749,14 @@ export const DataProvider = (props) => {
 
         }, {
             "_id": "53",
-            "title": "Wacth Product 01",
+            "title": "Ao the thao pink",
             "images": [
                 img42,
                 img39,
                 img40,
                 img41
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Ao the thao",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -765,14 +765,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "54",
-            "title": "Wacth Product 02",
+            "title": "Ao the thao white-green",
             "images": [
                 img43,
                 img44,
                 img45,
                 img46
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Ao the thao nam",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -782,14 +782,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "55",
-            "title": "Wacth Product 03",
+            "title": "Ao ba lo",
             "images": [
                 img44,
                 img43,
                 img45,
                 img46
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Ao nam",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -799,14 +799,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "56",
-            "title": "Wacth Product 03",
+            "title": "Ao the thao Siver ",
             "images": [
                 img45,
                 img43,
                 img44,
                 img46
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Ao the thao nam",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -815,14 +815,14 @@ export const DataProvider = (props) => {
 
         }, {
             "_id": "57",
-            "title": "Wacth Product 01",
+            "title": "Ao the thao",
             "images": [
                 img46,
                 img43,
                 img44,
                 img45
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Ao the thao nam ",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -831,14 +831,14 @@ export const DataProvider = (props) => {
         },
         {
             "_id": "58",
-            "title": "Wacth Product 02",
+            "title": "Ao the thao Silver",
             "images": [
                 img47,
                 img48,
                 img49,
                 img46
             ],
-            "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
+            "description": "Ao the thao",
             "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
             "colors": ["red", "black", "teal"],
             "sizes": ["XL", "L", "M", "XM", "LX"],
@@ -864,6 +864,76 @@ export const DataProvider = (props) => {
 
         }
 
+    ])
+
+    const [products_06, setProducts_06] = useState([
+        {
+            "_id": "200",
+            "title": "NIKE WIHTE",
+            "images": [
+                img1,
+                img2,
+                img3,
+                img4
+            ],
+            "description": "GIày sneaker nam nữ",
+            "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
+            "colors": ["red", "black", "teal"],
+            "sizes": ["XL", "L", "M", "XM", "LX"],
+            "price": 101,
+            "count": 1
+        },
+        {
+            "_id": "201",
+            "title": " Giày ROSS",
+            "images": [
+                img5,
+                img6,
+                img7,
+                img8
+            ],
+            "description": "kiểu dáng hàn quốc",
+            "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
+            "colors": ["red", "black", "teal"],
+            "sizes": ["XL", "L", "M", "XM", "LX"],
+            "price": 102,
+            "count": 1
+
+        },
+        {
+            "_id": "202",
+            "title": "GIÀY GALAXY 5",
+            "images": [
+                img9,
+                img10,
+                img1,
+                img2
+            ],
+            "description": "GIÀY CHẠY BỘ",
+            "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
+            "colors": ["red", "black", "teal"],
+            "sizes": ["XL", "L", "M", "XM", "LX"],
+            "price": 103,
+            "count": 1
+
+        },
+        {
+            "_id": "203",
+            "title": "VANS OLD SCHOOL",
+            "images": [
+                img3,
+                img4,
+                img5,
+                img6
+            ],
+            "description": "Giày Sneaker",
+            "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
+            "colors": ["red", "black", "teal"],
+            "sizes": ["XL", "L", "M", "XM", "LX"],
+            "price": 104,
+            "count": 1
+
+        }
     ])
 
     const [cart, setCart] = useState([])
@@ -952,6 +1022,20 @@ export const DataProvider = (props) => {
         }
     }
 
+    const addCart_06 = (id) => {
+        const check = cart.every(item => {
+            return item._id !== id
+        })
+        if (check) {
+            const data = products_06.filter(product => {
+                return product._id === id
+            })
+            setCart([...cart, ...data])
+        } else {
+            alert("The product has been added to cart.")
+        }
+    }
+
     useEffect(() => {
         const dataCart = JSON.parse(localStorage.getItem('dataCart'))
         if (dataCart) setCart(dataCart)
@@ -969,14 +1053,15 @@ export const DataProvider = (props) => {
         products_03: [products_03, setProducts_03],
         products_04: [products_04, setProducts_04],
         products_05: [products_05, setProducts_05],
+        products_06: [products_06, setProducts_06],
         cart: [cart, setCart],
         addCart: addCart,
         addCart_01: addCart_01,
         addCart_02: addCart_02,
         addCart_03: addCart_03,
         addCart_04: addCart_04,
-        addCart_05: addCart_05
-
+        addCart_05: addCart_05,
+        addCart_06: addCart_06,
 
     }
 

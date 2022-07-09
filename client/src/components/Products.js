@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useRef } from 'react'
 import { DataContext } from './DataProvider'
 import { Link } from 'react-router-dom'
 import '../scss/Product.scss'
@@ -7,9 +7,12 @@ export default function Products() {
     const value = useContext(DataContext)
     const [products_02] = value.products_02
     const addCart_02 = value.addCart_02
+    const ref = useRef(0)
+
 
     return (
         <div className="products">
+            <h2 style={{ padding: 100 }}>Renders: {ref.current++}</h2>
             {
                 products_02.map(product => (
                     <div className="card" key={product._id}>
