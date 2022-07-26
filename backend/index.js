@@ -4,6 +4,20 @@ const cors = require("cors");
 const passportSetup = require("./passport");
 const passport = require("passport");
 const authRoute = require("./routes/auth");
+const bodyParser = require("body-parser");
+// const pq = require("pq");
+
+// const pool = new pq.Pool({
+//   host: "localhost",
+//   user: "postgres",
+//   port:5432,
+//   password: "0433662292",
+//   database: "checkoutProduct",
+//   max: 100
+// })
+
+
+
 const app = express();
 
 app.use(

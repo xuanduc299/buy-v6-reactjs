@@ -62,6 +62,9 @@ const SearchForm = () => {
                             else if (val.description.toLowerCase().includes(searchTerm.toLowerCase())) {
                                 return val;
                             }
+                            else if (val._id.toLowerCase().includes(searchTerm.toLowerCase())) {
+                                return val;
+                            }
                         })
                         .map((val) => {
                             return (

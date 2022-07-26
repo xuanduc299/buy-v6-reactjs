@@ -104,6 +104,28 @@ const Header = ({ user }) => {
                             <Link to="/cart">
                                 <img src={Cart} alt="" width="20" style={styleMenu} />
                             </Link>
+                            <div class="ps-cart__listing">
+                                <div class="ps-cart__content">
+                                    <table id="cart-content">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+                                    <p class="total-container" id="total-price"></p>
+                                </div>
+                                <div class="ps-cart__total">
+                                    <p>
+                                        Number of items:<span>36</span>
+                                    </p>
+                                    <p class="total-container" id="total-price"></p>
+                                </div>
+                                <div class="ps-cart__footer">
+                                    <a class="ps-btn">Check out</a>
+                                </div>
+                            </div>
                         </div>
                         {/* <div className="search-icon" onClick={() => setOpenSearch(true)}>Search</div>
                         <div className="search-icon" onClick={() => setOpenFilter(true)}>Filter</div> */}
